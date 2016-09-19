@@ -1,5 +1,9 @@
 wmic ENVIRONMENT create name="HOME",username="%username%",VariableValue="%USERPROFILE%"
+
+C:
+
 cd %USERPROFILE%
+
 echo machine github.com > _netrc
 
 echo login wsycarlos >> _netrc

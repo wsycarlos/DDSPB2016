@@ -1,5 +1,9 @@
 wmic ENVIRONMENT create name="HOME",username="%username%",VariableValue="%USERPROFILE%"
 
+git config --global user.name %username% 
+
+git config --global user.email %username%@hello.com
+
 C:
 
 cd %USERPROFILE%

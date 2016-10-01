@@ -1,3 +1,4 @@
+git pull origin master
 git add Multiplayer
 git stash -k -u
 git commit -m "Update Matrix"
